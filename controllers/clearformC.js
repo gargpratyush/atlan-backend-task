@@ -1,5 +1,6 @@
 const {google} = require("googleapis");
 const {auth, client, googleSheets, spreadsheetId} = require("../connectGoogleSheet");
+const logger = require('../logs/logger');
 
 const clearForm =  async (req, res) => {
     const metaData = await googleSheets.spreadsheets.get({
@@ -13,7 +14,8 @@ const clearForm =  async (req, res) => {
         range: `Sheet1`
     }).data;
 
-    res.send(metaData.data)
+    logger.info("Sheet is cleared")
+    res.send(`Sheet Cleared!`)
 };
 
 module.exports = {

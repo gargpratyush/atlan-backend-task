@@ -1,5 +1,10 @@
 const mysql = require("mysql");
+const logger = require('../logs/logger')
 require('dotenv').config();
+const { Sequelize } = require('sequelize');
+const config = require('config');
+
+const configuration = config.get("database");
 
 const db = mysql.createConnection({
     host: `${process.env.MYSQLHOST}`,
@@ -9,11 +14,22 @@ const db = mysql.createConnection({
 })
 
 // Connect
-db.connect((err) => {
+setTimeout(_ => {
+    let start = Date.now()
+
+    db.connect((err) => {
     if(err) {
+        logger.error('DB is not connected properly')
         throw err;
     }
-    console.log('MySql connected...')
-});
+    logger.info('MySql is connected successfully')
+    });
+
+    let end = Date.now()
+    logger.info(`DB connected in: ${end-start} miliseconds`);
+    if((end-start) > 5) {
+        logger.warn('DB is overloaded')
+    }
+}, 1000)
 
 module.exports = db

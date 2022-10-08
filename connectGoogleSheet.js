@@ -1,3 +1,4 @@
+const logger = require('./logs/logger');
 const {google} = require("googleapis");
 
 const auth = new google.auth.GoogleAuth({
@@ -21,6 +22,10 @@ const metaData = async (req, res) => {
     auth: auth,
     spreadsheetId: spreadsheetId,
 });
+}
+
+if (auth !== undefined && googleSheets !== undefined && client !== undefined && spreadsheetId !== undefined) {
+    logger.debug("Google API is working properly")
 }
 
 module.exports = {
