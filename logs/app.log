@@ -178,3 +178,59 @@
 2022-10-08T19:20:44.313Z - [INFO   ] - DB connected in: 8 miliseconds
 2022-10-08T19:20:44.313Z - [WARN   ] - DB is overloaded
 2022-10-08T19:20:44.320Z - [INFO   ] - MySql is connected successfully
+2022-10-09T18:01:47.263Z - [ERROR  ] - error logs are being displayed
+2022-10-09T18:01:47.263Z - [WARN   ] - warn logs are being displayed
+2022-10-09T18:01:47.264Z - [INFO   ] - info logs are being displayed
+2022-10-09T18:01:47.920Z - [INFO   ] - Running on port 3000!
+2022-10-09T18:01:48.922Z - [INFO   ] - DB connected in: 5 miliseconds
+2022-10-09T18:01:48.963Z - [INFO   ] - MySql is connected successfully
+2022-10-09T18:07:19.949Z - [INFO   ] - Age > 18
+2022-10-09T18:07:55.146Z - [ERROR  ] - error logs are being displayed
+2022-10-09T18:07:55.147Z - [WARN   ] - warn logs are being displayed
+2022-10-09T18:07:55.147Z - [INFO   ] - info logs are being displayed
+2022-10-09T18:07:55.755Z - [INFO   ] - Running on port 3000!
+2022-10-09T18:07:56.763Z - [INFO   ] - DB connected in: 9 miliseconds
+2022-10-09T18:07:56.764Z - [WARN   ] - DB is overloaded
+2022-10-09T18:07:56.771Z - [INFO   ] - MySql is connected successfully
+2022-10-09T18:07:59.621Z - [INFO   ] - Sheet is cleared
+2022-10-09T18:08:36.794Z - [ERROR  ] - error logs are being displayed
+2022-10-09T18:08:36.795Z - [WARN   ] - warn logs are being displayed
+2022-10-09T18:08:36.795Z - [INFO   ] - info logs are being displayed
+2022-10-09T18:08:37.290Z - [INFO   ] - Running on port 3000!
+2022-10-09T18:08:38.298Z - [INFO   ] - DB connected in: 9 miliseconds
+2022-10-09T18:08:38.298Z - [WARN   ] - DB is overloaded
+2022-10-09T18:08:38.303Z - [INFO   ] - MySql is connected successfully
+2022-10-09T18:09:09.925Z - [ERROR  ] - error logs are being displayed
+2022-10-09T18:09:09.926Z - [WARN   ] - warn logs are being displayed
+2022-10-09T18:09:09.926Z - [INFO   ] - info logs are being displayed
+2022-10-09T18:09:10.483Z - [INFO   ] - Running on port 3000!
+2022-10-09T18:09:11.487Z - [INFO   ] - DB connected in: 6 miliseconds
+2022-10-09T18:09:11.487Z - [WARN   ] - DB is overloaded
+2022-10-09T18:09:11.492Z - [INFO   ] - MySql is connected successfully
+2022-10-09T18:09:22.510Z - [INFO   ] - Sheet is cleared
+2022-10-09T18:09:28.398Z - [INFO   ] - Sheet is cleared
+2022-10-09T19:27:53.135Z - [ERROR  ] - error logs are being displayed
+2022-10-09T19:27:53.136Z - [WARN   ] - warn logs are being displayed
+2022-10-09T19:27:53.137Z - [INFO   ] - info logs are being displayed
+2022-10-09T19:27:53.695Z - [INFO   ] - Running on port 3000!
+2022-10-09T19:27:54.700Z - [INFO   ] - DB connected in: 7 miliseconds
+2022-10-09T19:27:54.701Z - [WARN   ] - DB is overloaded
+2022-10-09T19:27:54.705Z - [INFO   ] - MySql is connected successfully
+2022-10-09T19:28:25.174Z - [INFO   ] - Sheet is cleared
+2022-10-09T19:28:44.253Z - [INFO   ] - Sheet is cleared
+2022-10-09T19:29:26.917Z - [ERROR  ] - error logs are being displayed
+2022-10-09T19:29:26.918Z - [WARN   ] - warn logs are being displayed
+2022-10-09T19:29:26.918Z - [INFO   ] - info logs are being displayed
+2022-10-09T19:29:27.480Z - [INFO   ] - Running on port 3000!
+2022-10-09T19:29:28.491Z - [INFO   ] - DB connected in: 11 miliseconds
+2022-10-09T19:29:28.491Z - [WARN   ] - DB is overloaded
+2022-10-09T19:29:28.501Z - [INFO   ] - MySql is connected successfully
+2022-10-09T19:29:38.809Z - [INFO   ] - Sheet is cleared
+2022-10-09T19:30:42.472Z - [ERROR  ] - error logs are being displayed
+2022-10-09T19:30:42.473Z - [WARN   ] - warn logs are being displayed
+2022-10-09T19:30:42.473Z - [INFO   ] - info logs are being displayed
+2022-10-09T19:30:43.061Z - [INFO   ] - Running on port 3000!
+2022-10-09T19:30:44.063Z - [INFO   ] - DB connected in: 4 miliseconds
+2022-10-09T19:30:44.070Z - [INFO   ] - MySql is connected successfully
+2022-10-09T19:30:51.549Z - [INFO   ] - Sheet is cleared
+2022-10-09T19:30:56.300Z - [INFO   ] - Form 3 details have been updated

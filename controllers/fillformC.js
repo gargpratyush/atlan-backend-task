@@ -33,7 +33,8 @@ const fillForm = async (req, res) => {
     let sql1 = `SELECT * FROM ${process.env.MYSQLDATABASE}.questions WHERE form_id = ${id};`;
     let query1 = db.query(sql1, async (err, result) => {
         if(err) throw err;
-        console.log(result);
+        // console.log(result);
+        logger.info(`Form ${id} details have been updated`)
         for (let i = 0; i < result.length; i++) {
             var col = JSON.stringify(result[i].question_value);
             await googleSheets.spreadsheets.values.append({

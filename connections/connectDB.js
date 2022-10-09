@@ -2,9 +2,6 @@ const mysql = require("mysql");
 const logger = require('../logs/logger')
 require('dotenv').config();
 const { Sequelize } = require('sequelize');
-const config = require('config');
-
-const configuration = config.get("database");
 
 const db = mysql.createConnection({
     host: `${process.env.MYSQLHOST}`,
