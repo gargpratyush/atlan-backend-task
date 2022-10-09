@@ -234,3 +234,11 @@
 2022-10-09T19:30:44.070Z - [INFO   ] - MySql is connected successfully
 2022-10-09T19:30:51.549Z - [INFO   ] - Sheet is cleared
 2022-10-09T19:30:56.300Z - [INFO   ] - Form 3 details have been updated
+2022-10-09T19:38:42.547Z - [ERROR  ] - error logs are being displayed
+2022-10-09T19:38:42.548Z - [WARN   ] - warn logs are being displayed
+2022-10-09T19:38:42.548Z - [INFO   ] - info logs are being displayed
+2022-10-09T19:38:43.084Z - [INFO   ] - Running on port 3000!
+2022-10-09T19:38:44.091Z - [INFO   ] - DB connected in: 9 miliseconds
+2022-10-09T19:38:44.091Z - [WARN   ] - DB is overloaded
+2022-10-09T19:38:44.104Z - [INFO   ] - MySql is connected successfully
+2022-10-09T19:38:46.119Z - [INFO   ] - Age Logic triggered
